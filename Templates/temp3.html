@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/css1.css' %}">
+    <style>
+    #h1{ color:firebrick;}
+    #h2{color:violet;}
+    </style>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body >
+<h1 id="h1">{{message}}</h1>
+<h1 id="h2">current date and time:{{date}}</h1>
+<img src=" {% static "image/rahul.jpg" %} " alt=rahul" width="700px">
+<img src=" {% static "image/rahul2.jpg" %} " alt=rahul" width="700px">
+<img src=" {% static "image/rahul3.jpg" %} " alt=rahul" width="700px">
+<img src=" {% static "image/rahul4.jpg" %} " alt=rahul" width="700px">
+
+
+</html>
